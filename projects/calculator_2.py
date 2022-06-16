@@ -2,7 +2,7 @@ print("Please input one of the following: ")
 print("add, subtract, multiply, divide, square")
 print("if doing a square, the first number will be used.")
 
-kind = input("What would you like to do? ")
+kind = input("What would you like to do (add): ")
 num_1 = input("first number: ")
 num_2 = input("second number: ")
 
@@ -19,3 +19,7 @@ if kind == "divide":
     print(number_1 / number_2)
 if kind == "square":
     print(number_1 ** 2)
+else:
+    # Assume user wanted addition
+    print(number_1 + number_2)
+

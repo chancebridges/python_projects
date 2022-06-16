@@ -10,7 +10,7 @@ number_1 = int(num_1)
 number_2 = int(num_2)
 
 if kind == "add":
-    print(number_1 - number_2)
+    print(number_1 + number_2)
 if kind == "subtract":
     print(number_1 - number_2)
 if kind == "multiply":

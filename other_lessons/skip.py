@@ -1,0 +1,6 @@
+numbers = list(range(2,11,2))
+print(numbers)
+number = list(range(2,11,3))
+numb = list(range(2,11,4))
+print(number)
+print(numb)

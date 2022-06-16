@@ -1,0 +1,6 @@
+number_1= input("first_number: ")
+number_2= input("second_number: ")
+add_1 = int(number_1)
+add_2 = int(number_2)
+end = (add_1 + add_2)
+print(str(end))

@@ -19,6 +19,8 @@ if kind == "divide":
     print(number_1 / number_2)
 if kind == "square":
     print(number_1 ** 2)
+if kind == "mod":
+    print(number_1 % number_2)
 else:
     # Assume user wanted addition
     print(number_1 + number_2)

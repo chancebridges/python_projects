@@ -7,3 +7,5 @@ print(alien_0)
 
 del alien_0['points']
 print(alien_0)
+
+# be aware that the deleted key-value pair is removed permanently

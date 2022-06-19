@@ -11,5 +11,3 @@ favorite_languages = {
 for name, language in favorite_languages.items():
     print(name.title() + "'s favorite language is " +
      language.title() + ".")
-
-# the code at line 11 tells pytohn to loop through each key-value pair in the dictionary

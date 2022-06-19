@@ -1,0 +1,26 @@
+pets = []
+
+india = {
+    'name' : 'india',
+    'kind' : 'toy aussie',
+    'owner' : 'brigett'
+}
+
+oncie = {
+    'name': 'oncie',
+    'kind' : 'border collie',
+    'owner' : 'brigett'
+}
+
+winston = {
+    'name' : 'winston',
+    'kind' : 'golden retreiver',
+    'owner' : 'brigett'
+}
+
+pets.append(india)
+pets.append(oncie)
+pets.append(winston)
+
+for pet in pets:
+    print(pet['name'] + ": " + str(pet))

@@ -6,3 +6,5 @@ prompt += "\nWhat is your first name? "
 
 name = input(prompt)
 print("\nHello, " + name + "!")
+
+# The operator += takes the string that was stored in prompt and adds the new string onto the end

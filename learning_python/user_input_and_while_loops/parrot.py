@@ -1,4 +1,10 @@
-prompt = "\nTell"
-# the input function takes one argument: the prompt that we want to 
-# display to the user so they know what to do. the program waits while the 
-# user enters their response and continues after the user presses enter
+# we'll define a quit value and then keep the program running as long as the 
+# user has not entered the quit value
+prompt = "\nTell me something, and I will repeat it back to you:"
+prompt += "\nEnter 'quit' to end the program. "
+
+message = ""
+while message != 'quit':
+    message = input(prompt)
+    print(message)
+

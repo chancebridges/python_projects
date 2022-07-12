@@ -52,9 +52,6 @@ class Battery():
         message += " miles on a full charge."
         print(message)
         
-        message = "This car can go approximately " + str(range)
-        message += " miles on a full charge."
-        print(message)
 
 class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles."""

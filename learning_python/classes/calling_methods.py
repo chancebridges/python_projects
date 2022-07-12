@@ -25,3 +25,8 @@ print("My dog is " + str(my_dog.age) + " years old.")
 
 my_dog.sit()
 my_dog.roll_over()
+
+# to call a method, give the name of the instance ( in this case, my_dog)
+# and the method you want to call, separated by a dot. When python reads 
+# my_dog.sit(), it looks for the method sit() in the class Dog and runs
+# that code. 

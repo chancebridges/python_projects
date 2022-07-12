@@ -8,3 +8,7 @@ def describe_pet(animal_type, pet_name):
 
 describe_pet('hamster', 'harry')
 describe_pet('dog', 'willie')
+
+# in the second function call, we pass describe_pet() the arguments 'dog' and 'willie'
+# calling a function multiple times is a very efficient way to work
+# you can use as many positional arguments as you need in your functions

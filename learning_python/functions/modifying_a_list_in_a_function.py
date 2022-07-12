@@ -23,9 +23,8 @@ def show_completed_models(completed_models):
 unprinted_designs = ['iphone case', 'robot pendant', 'dodecahedron']
 completed_models = []
 
-print_models(unprinted_designs[:], completed_models)
+print_models(unprinted_designs, completed_models)
 show_completed_models(completed_models)
-print(unprinted_designs)
 # we set up a list of unprinted designs and an empty list that will hold the ocmpleted models. 
 # All we have to do is call the functions and pass them the right arguments.
 # This example demonstrates the idea that every function should have one specific job. 

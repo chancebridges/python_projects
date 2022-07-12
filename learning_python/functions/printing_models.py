@@ -14,3 +14,8 @@ while unprinted_designs:
 print("\nThe following models have been printed:")
 for completed_model in completed_models:
     print(completed_model)
+
+# This program starts with a list of designs that need to be printed
+# and an empty list called completed_models that each design will be moved
+# to after it has been printed. 
+

@@ -7,3 +7,11 @@
 
 # next we will make a separate file called making_pizzas.py in the same 
 # directory as pizza.py. 
+
+# reference making_pizzas.py 
+
+# this approach to importing, in which you simply write import followed by the
+# name of the module, makes every function from the module available in 
+# your program. 
+
+# the syntax is : module_name.function_name()

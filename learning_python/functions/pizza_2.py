@@ -6,3 +6,5 @@ def make_pizza(*toppings):
 
 make_pizza('pepperoni')
 make_pizza('mushrooms', 'green peppers', 'extra cheese')
+
+# this syntax works no matter how many arguments the function receives.

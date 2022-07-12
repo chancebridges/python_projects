@@ -16,3 +16,8 @@ def make_pizza(size, *toppings):
 
 make_pizza(16, 'pepperoni')
 make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+
+# In the function definition, python stores the first value it receives in 
+# the parameter size. All other values that come after are stored in the tuple
+# "toppings". The function calls include an argument for the size first, 
+# followed by as many toppings as needed. 

@@ -31,3 +31,6 @@ favorite_languages = {
 print("The following languages have been mentioned:")
 for language in set(favorite_languages.values()):
     print(language.title())
+
+# when you wrap set() around a list that contains duplicate items, python 
+# identifies the unique items in a list and builds a set from those items.

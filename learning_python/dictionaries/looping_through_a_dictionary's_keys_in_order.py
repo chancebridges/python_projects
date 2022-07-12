@@ -15,4 +15,6 @@ favorite_languages = {
 
 for name in sorted(favorite_languages.keys()):
     print(name.title() + ", thank you for taking the poll.")
-    
+
+# this for statement is like any other for statements, except we've wrapped
+# the sorted() function around the dictionary.keys() method

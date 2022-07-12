@@ -8,3 +8,6 @@ def describe_pet(animal_type, pet_name):
     print("My " + animal_type + "'s name is " + pet_name.title() + ".")
 
 describe_pet('hamster', 'harry')
+
+# when we call describe_pet(), we need to provide an animal type and name in that order
+# in the function body, these two parameters are used to display information abou the pet being described

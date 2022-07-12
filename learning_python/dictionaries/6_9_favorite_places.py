@@ -1,6 +1,6 @@
 favorite_places = {
     'chance' :[ "rome, greece, antarctica"],
-    'brigett' : ['africa, australia, norway'],
+    'brigett' : ['india, hawaii, ireland'],
     'maddie' : ['italy, hawaii, alaska']
 }
 

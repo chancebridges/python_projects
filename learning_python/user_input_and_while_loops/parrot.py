@@ -8,3 +8,5 @@ while message != 'quit':
     message = input(prompt)
     print(message)
 
+# this works well except that it prints the word 'quit' as if it were an actual message
+# refer to parrot 2.0 for how to fix this

@@ -6,3 +6,9 @@ import pizza as p
 
 p.make_pizza(16, 'pepperoni')
 p.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+
+# the module pizza is given the alias p in the import statement, but all of
+# the module's functions retain their original names. 
+
+# the general syntax for this approach is:
+# import module_name as mn

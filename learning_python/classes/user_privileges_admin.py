@@ -1,5 +1,4 @@
 class User():
-  
     def __init__(self, first_name, last_name, age, sex, height):
         """Represent a users information."""
         self.first_name = first_name
@@ -24,18 +23,20 @@ class User():
         return (len(self.first_name))
         
 class Privelage():
-    def __init__(self, privelages='privelages'):
+    def __init__(self, privelages='priv'):
         self.privelages = privelages
 
     def show_privelages(self):
-        message = ("The admins privelages include: " + "\n" + "can add post"
-        + "\n" + "can delete post" + "\n" + "can ban user")
-        print(message)
+        if self.privelages == 'priv':
+            priv_1 = "can add post"
+            priv_2 = "can delete post"
+            priv_3 = "can ban user"
+            print("the admins privelages include: \n" + priv_1 + 
+            "\n" + priv_2 + "\n" + priv_3)
+        else:
+            print('no')
         
 class Admin(User):
-    def __init__(self, first_name, last_name, age, sex, height):
+    def __init__(self, first_name, last_name, age, sex, height, privs):
         super().__init__(first_name, last_name, age, sex, height)
         self.privelages = Privelage()
-
-admin_1 = Admin("Chance", "Bridges", "24", "male", "5'7")
-admin_1.privelages.show_privelages()

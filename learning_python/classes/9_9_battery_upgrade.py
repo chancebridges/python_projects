@@ -63,7 +63,10 @@ class ElectricCar(Car):
         super().__init__(make, model, year)
         self.battery = Battery()
 
-car_1 = ElectricCar('tesla', 'mode; y', 2022)
+car_1 = ElectricCar('tesla', 'model y', 2022)
 car_1.battery.get_range()
 car_1.battery.upgrade_battery()
 car_1.battery.get_range()
+
+car_2 = Car('dodge', 'dakota', 1999)
+print(car_2.get_descriptive_name())

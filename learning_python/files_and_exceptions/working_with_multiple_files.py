@@ -23,9 +23,9 @@ def count_words(filename):
         print('The file ' + filename + ' has about ' + str(num_words) +
         ' words.')
         
-book_1 = 'C:\\Users\\Chance Bridges\\Desktop\\python_work\\alice.txt'
-book_2 = 'C:\\Users\\Chance Bridges\\Desktop\\python_work\\pizza.txt'
-book_3 = 'C:\\Users\\Chance Bridges\\Desktop\\python_work\\adventures_of_sherlock_holmes.txt'
+book_1 = 'alice.txt'
+book_2 = 'pizza.txt'
+book_3 = 'adventures_of_sherlock_holmes.txt'
 
 filenames = [book_1, book_2, book_3]
 for filename in filenames:
